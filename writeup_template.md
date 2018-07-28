@@ -53,7 +53,7 @@ In order to undistort an image the the camera has to be calibrated. In this exam
 Using these two variables and OpenCV's cv2.undistort(), the images being passed could be undistorted as shown  here:
 
 
-<img src="examples/undist.png" width="420" alt="Combined Image" />
+<img src="examples/undist.png" width="720" alt="Combined Image" />
 
 #### 2. How was a thresholded binary image created using color transforms and gradients?
 
@@ -65,7 +65,7 @@ Gradient and color thresholds were then used to identify the points making up th
 
 Here's an example of the output:
 
-<img src="examples/color_binary.png" width="420" alt="Combined Image" />
+<img src="examples/color_binary.png" width="720" alt="Combined Image" />
 
 #### 3. Transforming the Binary Image
 
@@ -102,7 +102,7 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
-<img src="examples/transform.png" width="420" alt="Combined Image" />
+<img src="examples/transform.png" width="720" alt="Combined Image" />
 
 #### 4. How were the lane-line pixels identified and fit to their positions with a polynomial?
 
@@ -117,7 +117,7 @@ In cell 9 a different approach is used to increase performance which searches wi
 These are images using both methods:
 
 
-<img src="examples/windows.png" width="420" alt="Combined Image" />
+<img src="examples/window.png" width="420" alt="Combined Image" />
 <img src="examples/margin.png" width="420" alt="Combined Image" />
 
 
@@ -167,7 +167,7 @@ After locating the left and right lines in the warped image, cell 11 (function d
 
 To provide a full visual of the pipeline, the function merge_outputs() in cell 12 was used to display various visuals created throughout the line detection process as shown here:
 
-<img src="examples/final.png" width="420" alt="Combined Image" />
+<img src="examples/final.png" width="720" alt="Combined Image" />
 ---
 
 ### Pipeline (video)
