@@ -1,4 +1,5 @@
 ## Writeup Template
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 ---
 
 **Advanced Lane Finding Project**
@@ -42,7 +43,7 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result:
 
-<img src="examples/undistorted.png" width="420" alt="Combined Image" />
+<img src="examples/undistorted.png" width="720" alt="Combined Image" />
 
 ### Pipeline (single images)
 
@@ -174,7 +175,7 @@ To provide a full visual of the pipeline, the function merge_outputs() in cell 1
 
 #### 1. Link to output video.
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./test_videos_output/project_video.mp4)
 
 ---
 
