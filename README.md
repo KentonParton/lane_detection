@@ -175,7 +175,7 @@ To provide a full visual of the pipeline, the function merge_outputs() in cell 1
 
 #### 1. Link to output video.
 
-Here's a [link to my video result](./test_videos_output/project_video.mp4)
+https://youtu.be/T0_N7x13K-g
 
 ---
 
